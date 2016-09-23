@@ -1,0 +1,104 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    /*font-family: 'Varela Round', sans-serif;*/
+    /*font-family: 'Bangers', cursive;*/
+
+    padding-bottom: 20px;
+    color: #5a5a5a;
+}
+/* navebar area*/
+.navbar-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    /* we want the nav bar always on top */
+    z-index: 10;
+}
+.navbar-wrapper > .container {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-wrapper .navbar .container {
+    width: auto;
+}
+
+/* carousel area */
+.carousel {
+    height: 900px;
+    margin-bottom: 50px;
+}
+.carousel .item {
+    height: 900px;
+    background-color: #777;
+}
+.carousel-inner > .item > img {
+    position: absolute;
+    height: 900px;
+    min-width: 100%;
+    top: 0;
+    left: 0;
+}
+
+/* team members area */
+.team .col-lg-4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.team p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.divider {
+    margin: 40px 0;
+}
+
+/* content area */
+.content {
+    margin-bottom: 30px;
+}
+#heading-div1 {
+    padding-left: 100px;
+    text-align: left;
+    padding-top: 50px;
+}
+#heading-div2 {
+    padding-right: 100px;
+    text-align: right;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
