@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bangers|Quicksand|Varela+Round">
+    <link rel="stylesheet" href="./css/animate.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
@@ -25,7 +26,7 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="#">Your Company</a>
+                        <a class="navbar-brand animated zoomIn" href="#"><span>Your Company</span></a>
                     </div>
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -162,7 +163,7 @@
     <hr class="divider">
 
     <!-- ________________________CONTENT_Begins____________________________ -->
-    <div class="row content"> <!-- section 1 -->
+    <div class="row content content-top"> <!-- section 1 -->
         <div id="heading-div1" class="col-md-7">
             <h2 class="content-heading">First Heading... <span class="text-muted">more words.</span></h2>
             <p class="lead-text">
@@ -177,7 +178,11 @@
         </div>
     </div>
 
-    <div class="row content"> <!-- section 2 -->
+    <div class="parallax-window" data-parallax="scroll" data-image-src="images/city-blured.jpg">
+        stuff
+    </div>
+
+    <div class="row content content-bottom"> <!-- section 2 -->
         <div class="col-md-5">
             <img src="images/city-blured-small.jpg" class="comtent-image img-responsive center-block"/>
         </div>
@@ -192,29 +197,25 @@
     </div>
     <!-- ________________________CONTENT_Ends______________________________ -->
 
+    <hr class="divider">
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    <!-- ________________________FOOTER_Begins_____________________________ -->
+    <footer>
+        <div class="center-text">
+            <p>
+                <i class="fa fa-arrow-circle-up" aria-hidden="true"></i>
+                Move to Top
+            </p>
+        </div>
+        <div class="center-text company-copywrite">
+            <p>Your Company Name &copy; 2016</p>
+        </div>
+    </footer>
+    <!-- ________________________FOOTER_Ends_______________________________ -->
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/parallax.js"></script>
 </body>
 </html>
